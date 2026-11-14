@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aayush | Portfolio</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #080d18;
+  color: white;
+  line-height: 1.6;
+}
+
+header {
+  padding: 20px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #101827;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  color: #38bdf8;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 18px;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+.hero {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.avatar {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0284c7, #172554);
+  border: 3px solid #38bdf8;
+  display: grid;
+  place-items: center;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.hero h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.hero h1 span {
+  color: #38bdf8;
+}
+
+.hero p {
+  color: #b8c5d6;
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 25px;
+  background: #0284c7;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+section {
+  padding: 65px 10%;
+}
+
+h2 {
+  color: #38bdf8;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.about, .card {
+  background: #111c2e;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #243650;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skills span {
+  background: #132b46;
+  padding: 12px 18px;
+  border-radius: 8px;
+  color: #7dd3fc;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #101827;
+  color: #9ca3af;
+}
+
+@media(max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  nav a {
+    margin: 0 7px;
+    font-size: 14px;
+  }
+
+  .hero h1 {
+    font-size: 34px;
+  }
+
+  section {
+    padding: 45px 7%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">AAYUSH.</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+  </nav>
+</header>
+
+<div class="hero" id="home">
+  <div class="avatar">A</div>
+
+  <h1>Hi, I'm <span>Aayush</span></h1>
+
+  <p>Aspiring Entrepreneur | Innovator</p>
+
+  <p>Exploring Technology, Robotics and Software Development.</p>
+
+  <a href="#about" class="btn">Explore My Portfolio</a>
+</div>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="about">
+    <p>
+      Hello! I'm Aayush, an Electronics and
+      Communication Engineering student.
+      I am passionate about technology,
+      innovation, robotics and entrepreneurship.
+      I enjoy learning new skills and creating
+      ideas that can make a difference.
+    </p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>My Skills</h2>
+  <div class="skills">
+    <span>Basic Computer Knowledge</span>
+    <span>Basic Electronics</span>
+    <span>HTML</span>
+    <span>Learning C++</span>
+    <span>Robotics</span>
+    <span>Creative Thinking</span>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>My Interests & Projects</h2>
+
+  <div class="card">
+    <h3>Robotics & Drones</h3>
+    <p>Exploring robotics, drone technology
+    and intelligent machines.</p>
+  </div>
+
+  <div class="card">
+    <h3>Web Development</h3>
+    <p>Learning to build modern and
+    responsive websites.</p>
+  </div>
+
+  <div class="card">
+    <h3>Innovation</h3>
+    <p>Exploring creative ideas for
+    future technology and startups.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Connect With Me</h2>
+  <p>Let's explore technology and innovation together.</p>
+  <a class="btn"
+  href="https://github.com/senaayush82008-crypto"
+  target="_blank">My GitHub Profile</a>
+</section>
+
+<footer>
+  © 2026 Aayush | All Rights Reserved
+</footer>
+
+</body>
+</html>
